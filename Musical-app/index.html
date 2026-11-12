@@ -1,13 +1,49 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
+<!--Doctype es una sentencia que indica que voy a trabajar con un documento de HTML-->
+<html lang="es"> <!--Aquí inicia mi página con la etiqueta de HTML-->
+<head><!--Aquí en el head está todo lo que no es visible en la página pero lo hace funcional-->
+    <!--Con los metadatos puedo colocar caractéres especiales, dar información al SEO para posicionamiento web--> 
+    <meta charset="UTF-8"> <!--Permite carácteres especiales-->
+  <meta name="description" content="Música disco">
+  <meta name="author" content="Karen Ávila">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="dtyles.css">
+
 <title>MusiKAY</title>
+<link href="https://fonts.googleapis.com/css2?family=Agrave+Pro:wght@100..700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-
-<h1>MusiKAY</h1>
-<p>Disco todo el tiempo</p>
-
+<div class="container-musical">
+    <img src="Imagendisco.jpg" alt="Imagen de MusiKAY" class="Imagen-portada">
+    <h1>MusiKAY</h1>
+    <p>Disco todo el tiempo</p>
+        <div class="lista-canciones">
+            <!--CANCIÓN 1-->
+            <div class="Canciones">
+            <p>🪩 1.- Stayin' Alive</p> 
+                  <audio controls class="audio-player">
+                    <!-- Mp3 de prueba 1 -->
+                    <source src="Beegees.mp3" type="audio/mpeg">
+                </audio>
+             </div>
+             <!--CANCIÓN 2-->
+             <div class="Canciones">
+                <p>🪩 2.-Boogie Woonderland</p>
+                  <audio controls class="audio-player">
+                    <!-- Mp3 de prueba 1 -->
+                    <source src="Boogie.mp3" type="audio/mpeg">
+                </audio>
+             </div>
+                <!--CANCIÓN 3-->
+                <div class="Canciones">
+                    <p>🪩 3.-I will survive</p> 
+                      <audio controls class="audio-player">
+                    <!-- Mp3 de prueba 1 -->
+                    <source src="Survive.mp3" type="audio/mpeg">
+                </audio>
+                </div>
+             </div>
+        </div>
 </body>
 </html>
 
