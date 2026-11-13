@@ -17,33 +17,53 @@
     <img src="Imagendisco.jpg" alt="Imagen de MusiKAY" class="Imagen-portada">
     <h1>MusiKAY</h1>
     <p>Disco todo el tiempo</p>
+
         <div class="lista-canciones">
-            <!--CANCIÓN 1-->
-            <div class="Canciones">
+
+           <!--  CANCIÓN 1-->
+            <!-- <div class="Canciones">
             <p>🪩 1.- Stayin' Alive</p> 
-                  <audio controls class="audio-player">
+                  <audio controls class="audio-player"> -->
                     <!-- Mp3 de prueba 1 -->
-                    <source src="Beegees.mp3" type="audio/mpeg">
+                    <!-- <source src="Beegees.mp3" type="audio/mpeg">
                 </audio>
-             </div>
+             </div> -->
              <!--CANCIÓN 2-->
-             <div class="Canciones">
+             <!-- <div class="Canciones">
                 <p>🪩 2.-Boogie Woonderland</p>
-                  <audio controls class="audio-player">
+                  <audio controls class="audio-player"> -->
                     <!-- Mp3 de prueba 1 -->
-                    <source src="Boogie.mp3" type="audio/mpeg">
+                    <!-- <source src="Boogie.mp3" type="audio/mpeg">
                 </audio>
-             </div>
+             </div> -->
                 <!--CANCIÓN 3-->
-                <div class="Canciones">
+                <!-- <div class="Canciones">
                     <p>🪩 3.-I will survive</p> 
-                      <audio controls class="audio-player">
+                      <audio controls class="audio-player"> -->
                     <!-- Mp3 de prueba 1 -->
-                    <source src="Survive.mp3" type="audio/mpeg">
+                   <!--  <source src="Survive.mp3" type="audio/mpeg">
                 </audio>
                 </div>
-             </div>
+             </div> -->
+             <!-- UNA SOLA CAJA DE REPRODUCTOR -->
+      <div class="canciones">
+        <!-- 1. Le ponemos id="nombre-cancion" para que JS cambie el texto -->
+        <p id="nombre-cancion">🪩 1.- Stayin</p>
+        
+        <!--  Un solo audio con id="audio-player" -->
+        <audio id="audio-player" controls class="audio-player">
+          <source src="Beegees.mp3" type="audio/mpeg">
+        </audio>
+
+
+        <!-- Agregamos los botones para avanzar y retroceder -->
+        <div class="controles">
+          <button id="btn-anterior">⏮ Anterior</button>
+          <button id="btn-siguiente">Siguiente ⏭</button>
         </div>
-</body>
+      </div>
+        </div>  
+<script src="script.js"<script/>
+</body> 
 </html>
 

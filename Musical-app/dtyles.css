@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #e275a1;
+    font-size: 20px;
 }
 
 body{
@@ -9,17 +11,17 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh; 
-    background: linear-gradient(135deg, #e0ccff, #290436);
+    background: linear-gradient(135deg, #0a080c, #4f2160, #a871bc);
     font-family: "Roboto", sans-serif;
-    padding: 20px; 
+    padding: 10px; 
 }
 
 .container-musical{
-    background-color: rgb(157, 147, 227);
+    background-color: rgb(150, 96, 164);
     width: 350px; 
     padding: 25px;
     border-radius: 20px;
-    box-shadow: 0px 15px 30px rgba(102, 152, 198, 0.3);
+    box-shadow: 0px 15px 30px rgba(113, 180, 248, 0.3);
     text-align: center;
 }
 
@@ -29,7 +31,7 @@ body{
     object-fit: cover;
     border-radius: 50%; /**/
     margin-bottom: 15px;
-    box-shadow: 0px 8px 16px rgba(255, 42, 42, 0.2);
+    box-shadow: 0px 8px 16px rgba(197, 159, 225, 0.2);
 }
 
 .h1{
@@ -55,4 +57,33 @@ p{
     padding: 10px;
     border-radius: 10px;
 }
+.audio-player {
+    width: 100%;
+    margin-bottom: 15px;
+}
 
+
+
+
+.controles {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+
+.controles button {
+    background-color: #8471cb;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+
+.controles button:hover {
+    background-color: #dc73c9;
+}
